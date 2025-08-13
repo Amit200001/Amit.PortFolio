@@ -65,22 +65,21 @@ button {
 
 
 .sk button{
-    justify-items: center;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 0px;  
+    border-bottom-right-radius: 0px;  
+    display: inline;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-    height: 180px;
-    width: 150px;
-    padding: 3px;
-}
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-image: cover;
+} 
 
-.skk button{
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    height: 180px;
-    width: 150px;
-    padding: 3px;
+.sk button:hover {
+    color:green;
 }
 
 #form{
