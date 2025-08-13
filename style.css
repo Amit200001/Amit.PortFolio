@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: gainsboro;
+    padding: 20px;
+    height: 94vh;
+    
+}
+
+.sidebar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.sidebar p {
+    color: #666;
+    font-size: 14px;
+    font-family: Consolas;
+
+}
+
+.sidebar nav a {
+    padding: 2px;
+    display: block;
+    margin: 20px 0;
+    color:#333;
+    text-decoration: none;
+    font-family: Consolas;
+}
+
+.sidebar nav a:hover {
+    color: #007bff;
+}
+
+.main {
+    padding: 50px;
+    flex-grow: 1;
+    font-family: Consolas;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+
+.sk button{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 180px;
+    width: 150px;
+    padding: 3px;
+}
+
+.skk button{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 180px;
+    width: 150px;
+    padding: 3px;
+}
+
+#form{
+    row-gap: 20px;
+}
+
+.lo{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    box-shadow: #898383 5px 5px;
+}
+
+.button{
+    row-gap: 80px;
+    cursor: pointer;  
+}
+

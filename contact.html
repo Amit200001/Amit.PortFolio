@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<Style>
+
+.divider {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            color: #777;
+            font-size: 0.8rem;
+        }
+        
+.divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #ddd;
+        }
+        
+.divider::before {
+            margin-right: 1rem;
+        }
+        
+.divider::after {
+            margin-left: 1rem;
+        }
+        
+.social-login {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+.social-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+.social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+.facebook {
+            background-color: #4267b2;
+        }
+        
+.linkedin {
+            background-color: #0077b5;
+        }
+
+.twitter{
+            background-color: black;
+        }
+        
+.instagram {
+            background-color: #cd1082;
+        }
+
+.snapchat {
+            background-color: #effd28;
+        }
+
+.signup-link {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--dark-color);
+        }
+        
+.signup-link a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+.signup-link a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+        
+.error-message {
+            color: var(--error-color);
+            font-size: 0.85rem;
+            margin-top: 0.3rem;
+            display: none;
+        }
+            
+</Style>
+
+<body>
+    <div class="sidebar">
+        <img src="image.jpg" alt="Profile Image">
+        <h2>AMIT NIKHADE</h2>
+        <p>Java | HTML | CSS | JavaScript | MySQL | C</p>
+        <nav>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <h1>Contact</h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div id="form" style="justify-content: center; align-items: center; display: flex; margin-top:10%; "  >
+             <form class="lo" >  
+     
+             <input style="border-radius: 20px; padding: 5px; "  type="Text" placeholder="Name">
+             
+             <input style="border-radius: 20px; padding: 5px; " type="Password" placeholder="Password">
+
+             <input style="border-radius: 20px; padding: 5px; " type="Email" placeholder="Email">
+                
+                <button class="button">Login</button>
+            
+             </form>
+
+        </div>
+
+        <br><br><br><br><br>
+            <div class="social-login">
+                
+                <div class="social-btn facebook" title="Login with Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="social-btn linkedin" title="Login with LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                 <div class="social-btn twitter" title="Login with twitter">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="social-btn instagram" title="Login with Instagram">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="social-btn snapchat" title="Login with snapchat">
+                    <i class="fab fa-snapchat"></i>
+                </div>
+             
+            </div>
+
+    </div>
+</body>
+</html>
