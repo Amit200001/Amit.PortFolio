@@ -63,25 +63,6 @@ button {
     border-radius: 20px;
 }
 
-
-.sk button{
-    border: 2px solid black;
-    height: 150px;
-    width: 150px;
-    border-top-left-radius: 0px;  
-    border-bottom-right-radius: 0px;  
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    background-repeat: no-repeat;
-    background-image: cover;
-} 
-
-.sk button:hover {
-    color:green;
-}
-
 #form{
     row-gap: 20px;
 }
@@ -106,3 +87,15 @@ button {
     cursor: pointer;  
 }
 
+.skill>img{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    grid-template-columns: 2fr 2fr;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: cover;
+    box-shadow: #787373 4px 4px;
+    
+}
